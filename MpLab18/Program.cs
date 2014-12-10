@@ -8,7 +8,7 @@ namespace MpLab18
   {
     static void Main()
     {
-      File.WriteAllLines("logins", new string[] {""});
+      File.WriteAllText("logins", "");
       var serviceHost = new ServiceHost(typeof (ChatService));
       serviceHost.Open();
       Console.WriteLine("Сервис запущен...");

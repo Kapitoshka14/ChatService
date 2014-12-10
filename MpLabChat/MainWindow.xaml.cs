@@ -5,16 +5,16 @@ using System.Windows.Controls;
 using System.Windows.Threading;
 using MpLabChat.ChatServiceReference;
 
-
 namespace MpLabChat
 {
   public partial class MainWindow
   {
+    public DispatcherTimer A;
     public MainWindow()
     {
       InitializeComponent();
-      var a = new DispatcherTimer { Interval = TimeSpan.FromSeconds(2) };
-      a.Tick += delegate
+      A = new DispatcherTimer { Interval = TimeSpan.FromSeconds(2) };
+      A.Tick += delegate
       {
         try
         {
@@ -60,9 +60,10 @@ namespace MpLabChat
         catch
         {
           os.Visibility = Visibility.Visible;
+          A.Stop();
         }
       };
-      a.Start();
+      A.Start();
       Closing += delegate { loginExit_Click(null, null); };
     }
     private void loginE_Click(object sender, RoutedEventArgs e)
@@ -158,6 +159,10 @@ namespace MpLabChat
     {
       //выбирается некоторый чат
       pole.Text = "";
+    }
+    private void Button_Click(object sender, RoutedEventArgs e)
+    {
+      A.Start();
     }
   }
 }

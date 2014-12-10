@@ -36,7 +36,6 @@ namespace MpLab18
       File.WriteAllLines("logins", File.ReadAllLines("logins").ToList().Where(i => i != login));
       Console.WriteLine("Пользователь {0} вышел", login);
     }
-
     /// <summary>
     /// Выводит списки пользователей и чатов
     /// </summary>
@@ -46,7 +45,6 @@ namespace MpLab18
       logins = File.ReadAllLines("logins").Where(i => i.Any()).ToList();
       names = File.ReadAllLines("names").Where(i => i.Any()).ToList();
     }
-
     /// <summary>
     /// Создаёт новый чат
     /// </summary>
@@ -67,7 +65,6 @@ namespace MpLab18
       Console.WriteLine("Создан чат: {0}", name);
       return true;
     }
-
     /// <summary>
     /// Выбор чата а также обновление чата
     /// </summary>
@@ -87,6 +84,7 @@ namespace MpLab18
     public void DelSpisok(string name)
     {
       File.WriteAllLines("names", File.ReadAllLines("names").ToList().Where(i => i != name));
+      File.Delete(@"a\" + name);
       Console.WriteLine("Чат {0} удалён из базы", name);
     }
     /// <summary>
