@@ -1,0 +1,29 @@
+c:\Users\admin\documents\visual studio 2013\Projects\MpLab18\MpLabChat\bin\Debug\MpLabChat.exe.config
+c:\Users\admin\documents\visual studio 2013\Projects\MpLab18\MpLabChat\bin\Debug\MpLabChat.exe
+c:\Users\admin\documents\visual studio 2013\Projects\MpLab18\MpLabChat\bin\Debug\MpLabChat.pdb
+c:\Users\admin\documents\visual studio 2013\Projects\MpLab18\MpLabChat\obj\Debug\MpLabChat.csprojResolveAssemblyReference.cache
+c:\Users\admin\documents\visual studio 2013\Projects\MpLab18\MpLabChat\obj\Debug\MainWindow.baml
+c:\Users\admin\documents\visual studio 2013\Projects\MpLab18\MpLabChat\obj\Debug\MainWindow.g.cs
+c:\Users\admin\documents\visual studio 2013\Projects\MpLab18\MpLabChat\obj\Debug\App.g.cs
+c:\Users\admin\documents\visual studio 2013\Projects\MpLab18\MpLabChat\obj\Debug\MpLabChat_MarkupCompile.cache
+c:\Users\admin\documents\visual studio 2013\Projects\MpLab18\MpLabChat\obj\Debug\MpLabChat.g.resources
+c:\Users\admin\documents\visual studio 2013\Projects\MpLab18\MpLabChat\obj\Debug\MpLabChat.Properties.Resources.resources
+c:\Users\admin\documents\visual studio 2013\Projects\MpLab18\MpLabChat\obj\Debug\MpLabChat.csproj.GenerateResource.Cache
+c:\Users\admin\documents\visual studio 2013\Projects\MpLab18\MpLabChat\obj\Debug\MpLabChat.exe
+c:\Users\admin\documents\visual studio 2013\Projects\MpLab18\MpLabChat\obj\Debug\MpLabChat.pdb
+C:\Users\admin\Documents\GitHub\MpLab18\MpLabChat\bin\Debug\MpLabChat.exe.config
+C:\Users\admin\Documents\GitHub\MpLab18\MpLabChat\obj\Debug\MpLabChat.exe
+C:\Users\admin\Documents\GitHub\MpLab18\MpLabChat\obj\Debug\MpLabChat.pdb
+C:\Users\admin\Documents\GitHub\MpLab18\MpLabChat\obj\Debug\MpLabChat.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\GitHub\MpLab18\MpLabChat\obj\Debug\MainWindow.baml
+C:\Users\admin\Documents\GitHub\MpLab18\MpLabChat\obj\Debug\MainWindow.g.cs
+C:\Users\admin\Documents\GitHub\MpLab18\MpLabChat\obj\Debug\App.g.cs
+C:\Users\admin\Documents\GitHub\MpLab18\MpLabChat\obj\Debug\MpLabChat_MarkupCompile.cache
+C:\Users\admin\Documents\GitHub\MpLab18\MpLabChat\obj\Debug\MpLabChat.g.resources
+C:\Users\admin\Documents\GitHub\MpLab18\MpLabChat\obj\Debug\MpLabChat.Properties.Resources.resources
+C:\Users\admin\Documents\GitHub\MpLab18\MpLabChat\obj\Debug\MpLabChat.csproj.GenerateResource.Cache
+C:\Users\admin\Documents\GitHub\MpLab18\MpLabChat\bin\Debug\MpLabChat.exe
+C:\Users\admin\Documents\GitHub\MpLab18\MpLabChat\bin\Debug\MpLabChat.pdb
+C:\Users\admin\Documents\GitHub\ChatService\MpLabChat\bin\Debug\MpLabChat.exe.config
+C:\Users\admin\Documents\GitHub\ChatService\MpLabChat\obj\Debug\MpLabChat.exe
+C:\Users\admin\Documents\GitHub\ChatService\MpLabChat\obj\Debug\MpLabChat.pdb

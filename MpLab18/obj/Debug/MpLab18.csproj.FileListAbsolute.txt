@@ -1,0 +1,15 @@
+c:\users\admin\documents\visual studio 2013\Projects\MpLab18\MpLab18\bin\Debug\MpLab18.exe.config
+c:\users\admin\documents\visual studio 2013\Projects\MpLab18\MpLab18\obj\Debug\MpLab18.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2013\Projects\MpLab18\MpLab18\bin\Debug\MpLab18.exe
+c:\users\admin\documents\visual studio 2013\Projects\MpLab18\MpLab18\bin\Debug\MpLab18.pdb
+c:\users\admin\documents\visual studio 2013\Projects\MpLab18\MpLab18\obj\Debug\MpLab18.exe
+c:\users\admin\documents\visual studio 2013\Projects\MpLab18\MpLab18\obj\Debug\MpLab18.pdb
+C:\Users\admin\Documents\GitHub\MpLab18\MpLab18\bin\Debug\MpLab18.exe.config
+C:\Users\admin\Documents\GitHub\MpLab18\MpLab18\obj\Debug\MpLab18.exe
+C:\Users\admin\Documents\GitHub\MpLab18\MpLab18\obj\Debug\MpLab18.pdb
+C:\Users\admin\Documents\GitHub\MpLab18\MpLab18\bin\Debug\MpLab18.exe
+C:\Users\admin\Documents\GitHub\MpLab18\MpLab18\bin\Debug\MpLab18.pdb
+C:\Users\admin\Documents\GitHub\MpLab18\MpLab18\obj\Debug\MpLab18.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\GitHub\ChatService\MpLab18\bin\Debug\MpLab18.exe.config
+C:\Users\admin\Documents\GitHub\ChatService\MpLab18\obj\Debug\MpLab18.exe
+C:\Users\admin\Documents\GitHub\ChatService\MpLab18\obj\Debug\MpLab18.pdb
