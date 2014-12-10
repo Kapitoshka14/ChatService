@@ -21,5 +21,8 @@
         <TextBox x:Name="vvod" Height="53" Margin="280,0,28,0" TextWrapping="Wrap" VerticalAlignment="Bottom" IsEnabled="False"/>
         <Button x:Name="enter" Content="" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="18" Height="53" Click="enter_Click" IsEnabled="False"/>
         <Button x:Name="loginExit" Content="Выйти" HorizontalAlignment="Left" Margin="0,23,0,0" VerticalAlignment="Top" Width="130" Click="loginExit_Click" Visibility="Hidden"/>
+        <Grid x:Name="os" Background="#33000000" Visibility="Hidden">
+            <Label Content="Подождите: нет связи с сервером" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Background="{x:Null}"/>
+        </Grid>
     </Grid>
 </Window>
