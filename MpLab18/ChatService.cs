@@ -43,6 +43,8 @@ namespace MpLab18
     /// <returns>Лист[0] пользователи,[1]-чаты</returns>
     public void Spiski(ref List<string> logins, ref List<string> names)
     {
+      logins = File.ReadAllLines("logins").Where(i => i.Any()).ToList();
+      names = File.ReadAllLines("names").Where(i => i.Any()).ToList();
     }
 
     /// <summary>
@@ -52,6 +54,17 @@ namespace MpLab18
     /// <returns>true - создано удачно</returns>
     public bool CreatSpisok(string name)
     {
+      var names = File.ReadAllLines("names").ToList();
+      if (names.Contains(name)) return false;
+      var a = new StreamWriter("names", true);
+      a.WriteLine(name);
+      a.Close();
+
+      a = new StreamWriter(@"a\" + name, true);
+      a.WriteLine("Чат {0} создан.", name);
+      a.Close();
+
+      Console.WriteLine("Создан чат: {0}", name);
       return true;
     }
 
@@ -63,7 +76,9 @@ namespace MpLab18
     /// <returns>Содержимое чата</returns>
     public List<string> ClickSpisok(string name, int razm)
     {
-      return null;
+      var a = File.ReadAllLines(@"a\" + name).ToList();
+      a.RemoveRange(0, razm);
+      return a;
     }
     /// <summary>
     /// Удаление чата из списка и базы
@@ -71,6 +86,8 @@ namespace MpLab18
     /// <param name="name">Имя удаляемого чата</param>
     public void DelSpisok(string name)
     {
+      File.WriteAllLines("names", File.ReadAllLines("names").ToList().Where(i => i != name));
+      Console.WriteLine("Чат {0} удалён из базы", name);
     }
     /// <summary>
     /// Создание соощения
@@ -79,6 +96,9 @@ namespace MpLab18
     /// <param name="enter">Сообщение</param>
     public void Chat(string name, string enter)
     {
+      var a = new StreamWriter(@"a\" + name, true);
+      a.WriteLine(enter);
+      a.Close();
     }
   }
 }
