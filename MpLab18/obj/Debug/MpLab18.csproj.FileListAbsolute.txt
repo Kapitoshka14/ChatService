@@ -13,3 +13,6 @@ C:\Users\admin\Documents\GitHub\MpLab18\MpLab18\obj\Debug\MpLab18.csprojResolveA
 C:\Users\admin\Documents\GitHub\ChatService\MpLab18\bin\Debug\MpLab18.exe.config
 C:\Users\admin\Documents\GitHub\ChatService\MpLab18\obj\Debug\MpLab18.exe
 C:\Users\admin\Documents\GitHub\ChatService\MpLab18\obj\Debug\MpLab18.pdb
+C:\Users\admin\Documents\GitHub\ChatService\MpLab18\bin\Debug\MpLab18.exe
+C:\Users\admin\Documents\GitHub\ChatService\MpLab18\bin\Debug\MpLab18.pdb
+C:\Users\admin\Documents\GitHub\ChatService\MpLab18\obj\Debug\MpLab18.csprojResolveAssemblyReference.cache

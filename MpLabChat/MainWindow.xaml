@@ -6,13 +6,20 @@
         <TextBox x:Name="login" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="130"/>
         <Button x:Name="loginE" Content="Войти" HorizontalAlignment="Left" Margin="0,23,0,0" VerticalAlignment="Top" Width="130" Click="loginE_Click"/>
         <ListBox x:Name="logins" HorizontalAlignment="Left" Width="130" Margin="0,69,0,0" IsEnabled="False"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Height="23" Margin="140,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" IsEnabled="False"/>
+        <Button x:Name="nameE" Content="Создать беседу" HorizontalAlignment="Left" Margin="140,23,0,0" VerticalAlignment="Top" Width="130" Click="nameE_Click" IsEnabled="False"/>
+        <ListBox x:Name="names" HorizontalAlignment="Left" Width="130" Margin="140,69,0,0" SelectionChanged="names_SelectionChanged" IsEnabled="False">
+            <ListBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Удалить" Click="MenuItem_Click"/>
+                </ContextMenu>
+            </ListBox.ContextMenu>
+        </ListBox>
         <Label Content="Пользователи в сети:" HorizontalAlignment="Left" Margin="0,43,0,0" VerticalAlignment="Top" Width="130"/>
+        <Label Content="Созданные беседы:" HorizontalAlignment="Left" Margin="140,43,0,0" VerticalAlignment="Top" Width="130"/>
+        <TextBox x:Name="pole" Margin="280,0,0,63" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" IsEnabled="False"/>
+        <TextBox x:Name="vvod" Height="53" Margin="280,0,28,0" TextWrapping="Wrap" VerticalAlignment="Bottom" IsEnabled="False"/>
+        <Button x:Name="enter" Content="" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="18" Height="53" Click="enter_Click" IsEnabled="False"/>
         <Button x:Name="loginExit" Content="Выйти" HorizontalAlignment="Left" Margin="0,23,0,0" VerticalAlignment="Top" Width="130" Click="loginExit_Click" Visibility="Hidden"/>
-
-        <Grid x:Name="os" Background="#33000000" Visibility="Hidden">
-            <Label Content="Подождите: нет связи с сервером" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Background="{x:Null}"/>
-        </Grid>
-
-
     </Grid>
 </Window>
