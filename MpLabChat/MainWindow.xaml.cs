@@ -74,7 +74,7 @@ namespace MpLabChat
       login.IsEnabled = false;
       loginExit.Visibility = Visibility.Visible;
 
-      logins.IsEnabled = true;
+      logins.IsEnabled = name.IsEnabled = names.IsEnabled = nameE.IsEnabled = true;
       
     }
     private void loginExit_Click(object sender, RoutedEventArgs e)
@@ -85,7 +85,7 @@ namespace MpLabChat
       loginExit.Visibility = Visibility.Hidden;
       login.IsEnabled = true;
 
-      logins.IsEnabled = false;
+      logins.IsEnabled = name.IsEnabled = names.IsEnabled = nameE.IsEnabled = false;
       
     }
     private void nameE_Click(object sender, RoutedEventArgs e)
